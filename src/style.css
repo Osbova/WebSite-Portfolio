@@ -121,6 +121,21 @@ code {
   }
 }
 
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 .hero {
   position: relative;
 

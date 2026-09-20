@@ -22,6 +22,20 @@
   </section>
 </template>
 <style scoped>
+@media (max-width: 768px) {
+
+  header, nav {
+    padding: 0 12px;
+  }
+  .nav-links, .menu, nav {
+    gap: 10px;
+    font-size: 13px;
+  }
+  a {
+    white-space: nowrap;
+  }
+
+}
 .hero-section {
   position: relative;
   min-height: calc(100vh - 75px);
